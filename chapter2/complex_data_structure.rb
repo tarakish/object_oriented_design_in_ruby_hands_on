@@ -31,5 +31,3 @@ class RevealingReferences
     data.collect { |cell| Wheek.new(cell[0], cell[1]) }
   end
 end
-
-# diametersメソッドは責任を2つ持っている
